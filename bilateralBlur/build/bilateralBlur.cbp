@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="bilateralBlur" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="bilateralBlur">
+         <Option output="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/bilateralBlur" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/bfltGray.hpp" />
+            <Add directory="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/getClosenessWeight.hpp" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/Makefile&quot;  VERBOSE=1 bilateralBlur" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="bilateralBlur/fast">
+         <Option output="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/bilateralBlur" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/bfltGray.hpp" />
+            <Add directory="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/getClosenessWeight.hpp" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/Makefile&quot;  VERBOSE=1 bilateralBlur/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/cornan/mySlamCode/Opencv-code/bilateralBlur/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/bfltGray.cpp">
+      </Unit>
+      <Unit filename="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/getClosenessWeight.cpp">
+      </Unit>
+      <Unit filename="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/main.cpp">
+      </Unit>
+      <Unit filename="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/bfltGray.hpp">
+      </Unit>
+      <Unit filename="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/getClosenessWeight.hpp">
+      </Unit>
+      <Unit filename="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/cornan/mySlamCode/Opencv-code/bilateralBlur/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
